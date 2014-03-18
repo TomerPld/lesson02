@@ -3,7 +3,7 @@
 *Question 2
 */
 
-function isPloyndrom (str) {
+function isPolyndrom (str) {
 	for (var i=0;i<(str.length)/2;i++)
 	{
 		if (str.charAt(i)!=str.charAt(str.length-1-i))
